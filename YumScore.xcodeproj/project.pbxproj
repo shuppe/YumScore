@@ -7,13 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E472868B1AD1611500CAB985 /* TirDeDes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E472868A1AD1611500CAB985 /* TirDeDes.swift */; };
+		E497264A1AD0EE3A0049FF98 /* GameScoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E49726491AD0EE3A0049FF98 /* GameScoreTableViewController.swift */; };
+		E4C6D87A1AC733A8009AE76C /* CarteDePointageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4C6D8791AC733A8009AE76C /* CarteDePointageModel.swift */; };
 		E4DFB23D1ABD13740064E7F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFB23C1ABD13740064E7F1 /* AppDelegate.swift */; };
-		E4DFB2401ABD13740064E7F1 /* YumScore.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E4DFB23E1ABD13740064E7F1 /* YumScore.xcdatamodeld */; };
-		E4DFB2421ABD13740064E7F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFB2411ABD13740064E7F1 /* ViewController.swift */; };
 		E4DFB2451ABD13740064E7F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E4DFB2431ABD13740064E7F1 /* Main.storyboard */; };
 		E4DFB2471ABD13740064E7F1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E4DFB2461ABD13740064E7F1 /* Images.xcassets */; };
 		E4DFB24A1ABD13740064E7F1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E4DFB2481ABD13740064E7F1 /* LaunchScreen.xib */; };
 		E4DFB2561ABD13740064E7F1 /* YumScoreTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4DFB2551ABD13740064E7F1 /* YumScoreTests.swift */; };
+		E4F35F0F1AD345E50010616B /* PointsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F35F0E1AD345E50010616B /* PointsTableViewCell.swift */; };
+		E4F35F131AD349B70010616B /* TotalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E4F35F121AD349B70010616B /* TotalTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,17 +30,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E472868A1AD1611500CAB985 /* TirDeDes.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TirDeDes.swift; path = YumScore/TirDeDes.swift; sourceTree = "<group>"; };
+		E49726491AD0EE3A0049FF98 /* GameScoreTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScoreTableViewController.swift; sourceTree = "<group>"; };
+		E4C6D8791AC733A8009AE76C /* CarteDePointageModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CarteDePointageModel.swift; path = YumScore/CarteDePointageModel.swift; sourceTree = "<group>"; };
 		E4DFB2371ABD13740064E7F1 /* YumScore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YumScore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DFB23B1ABD13740064E7F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DFB23C1ABD13740064E7F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E4DFB23F1ABD13740064E7F1 /* YumScore.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = YumScore.xcdatamodel; sourceTree = "<group>"; };
-		E4DFB2411ABD13740064E7F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E4DFB2441ABD13740064E7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E4DFB2461ABD13740064E7F1 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		E4DFB2491ABD13740064E7F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		E4DFB24F1ABD13740064E7F1 /* YumScoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YumScoreTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E4DFB2541ABD13740064E7F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E4DFB2551ABD13740064E7F1 /* YumScoreTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YumScoreTests.swift; sourceTree = "<group>"; };
+		E4F35F0E1AD345E50010616B /* PointsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PointsTableViewCell.swift; sourceTree = "<group>"; };
+		E4F35F121AD349B70010616B /* TotalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TotalTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E4C6D87B1AC733B3009AE76C /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E4C6D8791AC733A8009AE76C /* CarteDePointageModel.swift */,
+				E472868A1AD1611500CAB985 /* TirDeDes.swift */,
+			);
+			name = Model;
+			path = ..;
+			sourceTree = "<group>";
+		};
 		E4DFB22E1ABD13740064E7F1 = {
 			isa = PBXGroup;
 			children = (
@@ -79,12 +95,11 @@
 		E4DFB2391ABD13740064E7F1 /* YumScore */ = {
 			isa = PBXGroup;
 			children = (
-				E4DFB23C1ABD13740064E7F1 /* AppDelegate.swift */,
-				E4DFB2411ABD13740064E7F1 /* ViewController.swift */,
+				E49726491AD0EE3A0049FF98 /* GameScoreTableViewController.swift */,
+				E4F35F0E1AD345E50010616B /* PointsTableViewCell.swift */,
+				E4F35F121AD349B70010616B /* TotalTableViewCell.swift */,
 				E4DFB2431ABD13740064E7F1 /* Main.storyboard */,
-				E4DFB2461ABD13740064E7F1 /* Images.xcassets */,
-				E4DFB2481ABD13740064E7F1 /* LaunchScreen.xib */,
-				E4DFB23E1ABD13740064E7F1 /* YumScore.xcdatamodeld */,
+				E4C6D87B1AC733B3009AE76C /* Model */,
 				E4DFB23A1ABD13740064E7F1 /* Supporting Files */,
 			);
 			path = YumScore;
@@ -93,6 +108,9 @@
 		E4DFB23A1ABD13740064E7F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E4DFB2461ABD13740064E7F1 /* Images.xcassets */,
+				E4DFB23C1ABD13740064E7F1 /* AppDelegate.swift */,
+				E4DFB2481ABD13740064E7F1 /* LaunchScreen.xib */,
 				E4DFB23B1ABD13740064E7F1 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,9 +233,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E4DFB2421ABD13740064E7F1 /* ViewController.swift in Sources */,
-				E4DFB2401ABD13740064E7F1 /* YumScore.xcdatamodeld in Sources */,
+				E472868B1AD1611500CAB985 /* TirDeDes.swift in Sources */,
 				E4DFB23D1ABD13740064E7F1 /* AppDelegate.swift in Sources */,
+				E4F35F131AD349B70010616B /* TotalTableViewCell.swift in Sources */,
+				E4C6D87A1AC733A8009AE76C /* CarteDePointageModel.swift in Sources */,
+				E497264A1AD0EE3A0049FF98 /* GameScoreTableViewController.swift in Sources */,
+				E4F35F0F1AD345E50010616B /* PointsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -345,6 +366,7 @@
 				INFOPLIST_FILE = YumScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -355,6 +377,7 @@
 				INFOPLIST_FILE = YumScore/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -411,6 +434,7 @@
 				E4DFB25B1ABD13740064E7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E4DFB25C1ABD13740064E7F1 /* Build configuration list for PBXNativeTarget "YumScoreTests" */ = {
 			isa = XCConfigurationList;
@@ -419,21 +443,9 @@
 				E4DFB25E1ABD13740064E7F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCVersionGroup section */
-		E4DFB23E1ABD13740064E7F1 /* YumScore.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				E4DFB23F1ABD13740064E7F1 /* YumScore.xcdatamodel */,
-			);
-			currentVersion = E4DFB23F1ABD13740064E7F1 /* YumScore.xcdatamodel */;
-			path = YumScore.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-/* End XCVersionGroup section */
 	};
 	rootObject = E4DFB22F1ABD13740064E7F1 /* Project object */;
 }
